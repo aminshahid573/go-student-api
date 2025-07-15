@@ -35,21 +35,21 @@ student-api/
 
 ### Installation
 1. Clone the repository:
-   ```sh
+```sh
 git clone https://github.com/aminShahid573/go-student-api.git
 cd go-student-api
 ```
 2. Download dependencies:
-   ```sh
+```sh
 go mod download
 ```
 
 ### Running the API
 1. Build and run the application:
-   ```sh
+```sh
 go run ./cmd/student-api/main.go
 ```
-2. The API will start (by default) on `localhost:8080`.
+2. The API will start **http://localhost:`{{your_port in_config}}`**`
 
 ## API Endpoints
 
